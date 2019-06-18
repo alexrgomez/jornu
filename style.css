@@ -1,21 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
 
 /*----------------------*/
 
 .maintitle {
     font-size: 32px;
-    font-weight: bold;
 }
 .mainprice {
     font-size: 28px;
-    font-weight: bold;
 }
 .normal {
     font-size: 12px;
-    font-weight: bold;
+}
+.medio {
+    font-size: 18px;
 }
 .texts {
     font-size: 8px;
+}
+.negrita {
+    font-weight: 800;
 }
 
 .amarillo {
@@ -37,7 +40,7 @@
     display: block;
 }
 .sombra {
-    text-shadow: 1px 1px 2px #666;
+    text-shadow: 1px 1px 2px #000;
 }
 .derecha {
     float: right;
@@ -160,6 +163,74 @@
         padding: 0;
         margin: 0;
     }
+    .mainpic {
+        width: 100%;
+        height: 170px;     
+        display: block;
+    }
+    .mainpictitle {
+        text-align: right;
+        position: relative;
+        padding: 1em;
+        float: right;
+        top: 6em;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .justificado {
+        text-align: justify;
+        padding: 1em;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .bordeadocurvo {
+        border-radius: 0.8em;
+        border: solid 1px #ccc;
+        padding: 0.2em;
+        margin-right: 1em;
+    }
+    .margenderecha {
+        margin-right: 1em;
+    }
+    .margenizquierda {
+        margin-left: 1em;
+    }
+    .acomodartop {
+        margin-top: 0.2em;
+    }
+    .bordefinal {
+        border-bottom: solid 1px #ccc;
+    }
+    .listafichas {
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .fichasec {
+        width: 150px;
+        height: auto;
+        border: solid 1px #ccc;
+        float: left;
+    }
+    .mainpic_little {
+        width: 100%;
+        height: 80px;     
+        display: block;
+    }
+    .secondpictitle {
+        text-align: right;
+        position: relative;
+        float: right;
+        padding: 1em;
+    }
+    .bottomspace {
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
 }
 
 /* DESKTOP */
@@ -270,5 +341,73 @@
         list-style: none;
         padding: 0;
         margin: 0;
+    }
+    .mainpic {
+        width: 100%;
+        height: 170px;     
+        display: block;
+    }
+    .mainpictitle {
+        text-align: right;
+        position: relative;
+        padding: 1em;
+        float: right;
+        top: 6em;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .justificado {
+        text-align: justify;
+        padding: 1em;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .bordeadocurvo {
+        border-radius: 0.8em;
+        border: solid 1px #ccc;
+        padding: 0.2em;
+        margin-right: 1em;
+    }
+    .margenderecha {
+        margin-right: 1em;
+    }
+    .margenizquierda {
+        margin-left: 1em;
+    }
+    .acomodartop {
+        margin-top: 0.2em;
+    }
+    .bordefinal {
+        border-bottom: solid 1px #ccc;
+    }
+    .listafichas {
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .fichasec {
+        width: 150px;
+        height: auto;
+        border: solid 1px #ccc;
+        float: left;
+    }
+    .mainpic_little {
+        width: 100%;
+        height: 80px;     
+        display: block;
+    }
+    .secondpictitle {
+        text-align: right;
+        position: relative;
+        float: right;
+        padding: 1em;
+    }
+    .bottomspace {
+        position: relative;
+        width: 100%;
+        height: 80px;
     }
 }
